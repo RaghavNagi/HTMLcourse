@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 650px;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;;
+    gap: 10px;
+}
+
+
+.card img{
+    height: 30%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card p{
+    padding: 10%;
+    text-align: center;
+}
+
+.payment{
+    height: 10%;
+    width: 80%;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cost{
+    width: 45%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cost img{
+    height: 40px;
+    width: 40px;
+}
+.cost p{
+    font-size: 0.84rem;
+
+}
+
+.payment a{
+    padding-right: 10px;
+}
+
+.PayCost{
+    height: 10%;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px;
+}
+
+.cancelOrder a{
+    color: black;
+    text-decoration: none;
+}
